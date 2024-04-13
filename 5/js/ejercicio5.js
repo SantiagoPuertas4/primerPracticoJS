@@ -1,7 +1,7 @@
 let num1;
 let num2;
-num1 = parseInt(prompt("Ingresa un numero:"));
-num2 = parseInt(prompt("Ingresa otro numero:"));
+num1 = prompt("Ingresa un numero:");
+num2 = prompt("Ingresa otro numero:");
 
 if (num1 === null || num2 === null) {
   alert("No ingreso uno o los dos numeros");
