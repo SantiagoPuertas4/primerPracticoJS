@@ -1,3 +1,7 @@
 let name;
 name = prompt("Escribe tu nombre de usuario");
-document.write("Hola " + name);
+if (name === null) {
+  alert("No ingreso nada");
+} else {
+  document.write("Hola " + name);
+}
